@@ -6,4 +6,4 @@ Copyright(c) Crindzebra and All contributors
 
 （版权所有© Crindzebra 以及 所有贡献者）
 
-See license（查看许可证）
+[See license（查看许可证）](LICENSE)
