@@ -8,6 +8,7 @@ ul{
 ul>li{
 	padding:12px;
 	border-bottom:solid 1px #ccc;
+	transition:box-shadow 0.1s;
 }
 ul>li:first-child{
 	border-top:solid 1px #ccc;
@@ -16,9 +17,11 @@ a{
 	text-decoration:none;
 	color:#000;
 }
-ul>li:hover{
-	box-shadow:0 0 8px #000;
-	border:solid 1px #00a0e9;
+@media(min-width:800px){
+	ul>li:hover{
+		box-shadow:0 0 8px #000;
+		border:solid 1px #00a0e9;
+	}
 }
 ul>li:active{
 	box-shadow:0 0 4px #000;
