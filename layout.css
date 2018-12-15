@@ -8,7 +8,8 @@ ul{
 ul>li{
 	padding:12px;
 	border-bottom:solid 1px #ccc;
-	transition:background 0.1s;
+	background:rgba(0,0,0,0);
+	transition:background 0.2s;
 }
 ul>li:first-child{
 	border-top:solid 1px #ccc;
@@ -19,11 +20,11 @@ a{
 }
 @media(min-width:800px){
 	ul>li:hover{
-		background:#ccc;
+		background:rgba(0,0,0,0.2);
 		/*border:solid 1px #00a0e9;*/
 	}
 }
 ul>li:active{
-	background:#ccc;
+	background:rgba(0,0,0,0.2);
 	/*border:solid 1px #00a0e9;*/
 }
